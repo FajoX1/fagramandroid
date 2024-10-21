@@ -1,0 +1,11 @@
+
+ext {
+    Utils = [
+        getVersionName: {
+            return APP_VERSION_NAME + "." + ADDITIONAL_BUILD_NUMBER
+        },
+        getVersionCode: {
+            return (APP_VERSION_CODE.toInteger() * 10 + ADDITIONAL_BUILD_NUMBER.toInteger()) + ""
+        }
+    ]
+}

@@ -46,6 +46,9 @@ jobs:
           echo "USER_REPO=$GITHUB_REPOSITORY" >> $GITHUB_ENV
           echo "CHECK_UPDATES=${{ matrix.updates }}" >> $GITHUB_ENV
 
+      - name: Grant execute permission for gradlew
+        run: chmod +x ./gradlew
+
       - name: Build.
         run: |
           vars=gradle.properties

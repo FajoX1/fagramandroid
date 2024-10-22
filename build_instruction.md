@@ -1,4 +1,4 @@
-<h2><img src="https://github.com/hikariatama/assets/raw/master/1326-command-window-line-flat.webp" height="50" align="middle"> Creating your FaGram Application</h2>
+<h2><img src="https://github.com/hikariatama/assets/raw/master/1326-command-window-line-flat.webp" height="50" align="middle"> Creating your FAgram Application</h2>
 
 > ***✏️ Note that source code is published under GPLv2 with OpenSSL exception, the license is available here.***
 
